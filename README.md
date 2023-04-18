@@ -29,3 +29,30 @@ springboot-jwt
 ![1  Test Login-success2](https://user-images.githubusercontent.com/105952128/232656272-52667c52-e9b5-4366-a9a9-6b2f2b7c50f7.png)
 ![2  Test Login-wrong password](https://user-images.githubusercontent.com/105952128/232656281-020087f1-3c75-4a9a-9760-4b147ac5a934.png)
 ![3  Test Login-wrong username](https://user-images.githubusercontent.com/105952128/232656296-52d097ce-0f86-47b1-abee-f47f2e54bbff.png)
+### 3. Test Save article
+![1  Test Save article-success1](https://user-images.githubusercontent.com/105952128/232656415-e500287f-c431-4970-ba69-e24d7c4706f5.png)
+![1  Test Save article-success2](https://user-images.githubusercontent.com/105952128/232656425-f98f0617-3569-4351-959a-6caa8f9ef385.png)
+![2  Test Save article-mysql](https://user-images.githubusercontent.com/105952128/232656431-02d53e9a-3d83-41ce-8422-fcb49805dc8e.png)
+### 4. Test List articles
+![1  Test List articles](https://user-images.githubusercontent.com/105952128/232656480-e6abe064-55cf-4451-909e-eb9df67e0bb8.png)
+### 5. Test Update article
+![1  Test Update Article-success](https://user-images.githubusercontent.com/105952128/232656532-24043767-b394-4fe1-a33a-aa8ea11abfa8.png)
+![2  Test Update Article-mysql](https://user-images.githubusercontent.com/105952128/232656547-83ec3abd-e176-496d-ab0f-d297a388175e.png)
+### 6. Test Delete article
+![1  Test Delete article-success](https://user-images.githubusercontent.com/105952128/232656597-2be00fc0-228d-4c69-9599-898a2dfbb240.png)
+![2  Test Delete article-mysql](https://user-images.githubusercontent.com/105952128/232656603-3671ccbb-b897-405b-b0fb-9a3db0927b86.png)
+
+## Test cases 
+1. testRegisterationSuccess
+![1  testRegisterationSuccess](https://user-images.githubusercontent.com/105952128/232656696-ca1b3fb1-91e8-473d-985c-b939e2a5e7e9.png)
+![2  testRegisterationSuccess-mysql](https://user-images.githubusercontent.com/105952128/232656748-aa397300-29a2-44da-aa4f-3f277b48af5e.png)
+2. testRegisterationFailurePasswordsDoNotMatch
+![3  testRegisterationFailurePasswordsDoNotMatch](https://user-images.githubusercontent.com/105952128/232656794-7f55847e-5462-400d-bc2b-14a77d746117.png)
+3. testRegisterationFailureUsernameAlreadyExists
+![4  testRegisterationFailureUsernameAlreadyExists](https://user-images.githubusercontent.com/105952128/232656856-27382c2e-e70a-4b4a-925f-aa9e1029e529.png)
+4. testLoginSuccess
+![5  testLoginSuccess](https://user-images.githubusercontent.com/105952128/232656900-8855d714-f96d-48f4-9395-bf959fe62143.png)
+5. testLoginFailureWrongPassword
+![6  testLoginFailureWrongPassword](https://user-images.githubusercontent.com/105952128/232656935-094792c9-d483-4ba5-bd5a-cb3b70cff620.png)
+6. testLoginFailureWrongUsername
+![7  testLoginFailureWrongUsername](https://user-images.githubusercontent.com/105952128/232656972-5792b966-0d72-4879-87ac-8fcfc40904d2.png)

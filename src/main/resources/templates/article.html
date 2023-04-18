@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Data List Example</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+</head>
+<body>
+<div th:insert="common/header :: header"></div>
+<div class="container">
+    <br>
+
+    <a th:href="@{'/api/article/from'}"><button type="button"  class="btn btn-default btn-lg">Save Article</button></a>
+<!--    <div><button type="button" class="btn btn-warning" style="width: 100px">Save</button></div>-->
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Department</th>
+            <th>Author</th>
+            <th>Operate</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="article:${articleList}">
+            <td th:text="${article.title}"></td>
+            <td th:text="${article.department}"></td>
+            <td th:text="${article.author}"></td>
+            <td><a th:href="@{'/api/article/delete/'+${article.id}}"><button type="button" class="btn btn-danger" onclick="return confirm('Are you sure to delete?');">DELETE</button></a>
+                <a th:href="@{'/api/article/from?id='+${article.id}}"><button type="button" class="btn btn-primary">UPDATE</button></a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<!-- Bootstrap JS -->
+<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<br>
+<br>
+<div th:insert="common/footer :: footer"></div>
+</body>
+</html>

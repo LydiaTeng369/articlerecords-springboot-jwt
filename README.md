@@ -19,3 +19,8 @@ springboot-jwt
 ![5  Update Page](https://user-images.githubusercontent.com/105952128/232655224-dc5425a2-cd11-4c99-b412-c467ffdefdf4.png)
 
 ## Test using Postman
+1. Test Register a New User
+![1  Test Register a New User](https://user-images.githubusercontent.com/105952128/232656073-11a8c428-43dd-420e-b226-3961ad49fdba.png)
+![2  Test Register a New User-mysql](https://user-images.githubusercontent.com/105952128/232656086-9374ae6c-2ec1-41bd-8eae-a17d9a4fc68b.png)
+![3  Test Register a New User-same username](https://user-images.githubusercontent.com/105952128/232656098-3fc5b671-86a5-4e38-9379-e1f58fc6a83f.png)
+![4  Test Register a New User-password don't match](https://user-images.githubusercontent.com/105952128/232656102-0ebeb102-78fb-4647-925e-8e8f3c886004.png)

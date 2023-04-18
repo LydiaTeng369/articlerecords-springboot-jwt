@@ -19,8 +19,13 @@ springboot-jwt
 ![5  Update Page](https://user-images.githubusercontent.com/105952128/232655224-dc5425a2-cd11-4c99-b412-c467ffdefdf4.png)
 
 ## Test using Postman
-1. Test Register a New User
+### 1. Test Register a New User
 ![1  Test Register a New User](https://user-images.githubusercontent.com/105952128/232656073-11a8c428-43dd-420e-b226-3961ad49fdba.png)
 ![2  Test Register a New User-mysql](https://user-images.githubusercontent.com/105952128/232656086-9374ae6c-2ec1-41bd-8eae-a17d9a4fc68b.png)
 ![3  Test Register a New User-same username](https://user-images.githubusercontent.com/105952128/232656098-3fc5b671-86a5-4e38-9379-e1f58fc6a83f.png)
 ![4  Test Register a New User-password don't match](https://user-images.githubusercontent.com/105952128/232656102-0ebeb102-78fb-4647-925e-8e8f3c886004.png)
+### 2. Test Login
+![1  Test Login-success1](https://user-images.githubusercontent.com/105952128/232656260-bb25e89c-725d-4c02-9d4e-4cea8e91df35.png)
+![1  Test Login-success2](https://user-images.githubusercontent.com/105952128/232656272-52667c52-e9b5-4366-a9a9-6b2f2b7c50f7.png)
+![2  Test Login-wrong password](https://user-images.githubusercontent.com/105952128/232656281-020087f1-3c75-4a9a-9760-4b147ac5a934.png)
+![3  Test Login-wrong username](https://user-images.githubusercontent.com/105952128/232656296-52d097ce-0f86-47b1-abee-f47f2e54bbff.png)
